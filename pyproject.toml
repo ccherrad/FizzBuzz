@@ -1,0 +1,17 @@
+[project]
+name = "fizzbuzz"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Charef", email = "ccherrad@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+fizzbuzz = "fizzbuzz:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
