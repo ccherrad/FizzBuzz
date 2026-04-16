@@ -7,10 +7,13 @@ authors = [
     { name = "Charef", email = "ccherrad@gmail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.30.0",
+]
 
 [project.scripts]
-fizzbuzz = "fizzbuzz:main"
+fizzbuzz = "fizzbuzz.main:main"
 
 [build-system]
 requires = ["hatchling"]
